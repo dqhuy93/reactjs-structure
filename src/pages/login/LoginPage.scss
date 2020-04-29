@@ -1,0 +1,37 @@
+@import '../../scss//config';
+
+#login-content {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  min-height: 400px;
+  background-color: #f0f2f5;
+
+  .login-wrap {
+    width: 330px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #ccc;
+
+    .logo {
+      width: 80px;
+      display: block;
+      margin: 0 auto 15px;
+    }
+
+    h1 {
+      font-size: 18px;
+      color: $c-primary;
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+  }
+  .login-form {
+    .login-form-button {
+      width: 100%;
+    }
+  }
+}

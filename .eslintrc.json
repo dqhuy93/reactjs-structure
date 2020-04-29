@@ -1,0 +1,46 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:import/errors",
+		"plugin:import/warnings"
+	],
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 6,
+		"sourceType": "module"
+	},
+	"plugins": [
+		"react"
+	],
+	"rules": {
+		"no-unused-vars": 1,
+		"no-var": 2,
+		"prefer-const": 1,
+		"constructor-super": 2,
+		"no-const-assign": 2,
+		"no-duplicate-imports": 2,
+		"no-this-before-super": 2,
+		"no-console": 1,
+		"default-case": 1,
+		"eqeqeq": 1,
+		"no-multi-spaces": 1,
+		"react/no-find-dom-node": 2,
+		"react/no-direct-mutation-state": 1,
+		"react/prop-types": 0,
+		"react/no-is-mounted": 1,
+		"react/no-redundant-should-component-update": 2,
+		"react/no-unused-state": 1
+	}
+}
